@@ -88,12 +88,15 @@ class Poll(commands.Cog):
                             i += 1
 
                         ads = ["\n\n[JettCo Discount Assassins: Dirty Deeds (usually) Done Dirt Cheap](https://www.twitch.tv/jettfaxi)",
-                        "\n\n[JettCo Suicide Machines: The End is Closer Than You Think!](https://www.twitch.tv/jettfaxi)"]
+                        "\n\n[JettCo Suicide Machines: The End is Closer Than You Think!](https://www.twitch.tv/jettfaxi)",
+                        "\n\n[JettCo Waste Management: 2020 Special! All Dumpsters Include Complementary Fire](https://www.twitch.tv/jettfaxi)",
+                        "\n\n[The Shed: It Will Find You](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+                        ]
 
 
 
                         e = discord.Embed(title="**" + title + "**",
-                                description=pollMessage + ads[0],
+                                description=pollMessage + random.choice(ads),
                                           colour=0x83bae3)
                         pollMessage = await message.channel.send(embed=e)
                         i = 0

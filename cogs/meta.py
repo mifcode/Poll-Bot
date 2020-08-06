@@ -13,7 +13,7 @@ class Meta(commands.Cog):
             + "Poll Bot will automatically add the reactions 👍, 👎, and 🤷."
             + "\nCreate a reaction poll with multiple options by typing `+poll {title} [Option1] [Option2] [Option3]`."
             + "\n\n**Strawpoll**\nCreate a strawpoll by typing `+strawpoll {title} [Option1] [Option2] [Option 3]`, with up to 30 options."
-            + "\n"
+            + "\n\n"
             + "But really nobody can help you.",
             colour=0x83BAE3,
         )
