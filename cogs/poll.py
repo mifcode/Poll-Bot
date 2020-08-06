@@ -106,6 +106,7 @@ class Poll(commands.Cog):
                                 final_options.append(choice)
                                 await pollMessage.add_reaction(self.emojiLetters[i])
                             i += 1
+                        await message.delete()
                     except KeyError:
                         return "Please make sure you are using the format 'poll: {title} [Option1] [Option2] [Option 3]'"
             else:
