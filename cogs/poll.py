@@ -87,7 +87,8 @@ class Poll(commands.Cog):
                                     pollMessage = pollMessage + "\n\n" + self.emojiLetters[i] + " " + choice
                             i += 1
 
-                        ads = ["\n\n[Don't let eye strain ruin your day. Protect your eyes from harmful blue light using Bakery Gaming's glasses. Use code 'Poll Bot' for 20% off your order.](https://bakerygaming.store/collections/all)"]
+                        ads = ["\n\n[JettCo Discount Assassins: Dirty Deeds (usually) Done Dirt Cheap](https://www.twitch.tv/jettfaxi)",
+                        "\n\n[JettCo Suicide Machines: The End is Closer Than You Think!](https://www.twitch.tv/jettfaxi)"]
 
 
 
